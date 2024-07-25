@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.note-input {
+  margin-bottom: 20px;
+}
+
+.note-input textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.note-input input {
+  display: block;
+  margin: 10px auto;
+}
+
+.note-input button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.note-input button:hover {
+  background-color: #0056b3;
+}
+
+.canvas-container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.canvas-container button {
+  margin: 10px;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-content {
+  flex-grow: 1;
+  color: black;
+}
+
+.note-image {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.color-picker {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
