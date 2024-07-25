@@ -17,8 +17,7 @@
   display: block;
   margin: 10px auto;
 }
-
-.note-input button {
+button {
   display: block;
   margin: 0 auto;
   padding: 10px 20px;
@@ -28,7 +27,7 @@
   cursor: pointer;
 }
 
-.note-input button:hover {
+button:hover {
   background-color: #0056b3;
 }
 
